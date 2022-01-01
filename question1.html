@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Question1</title>
+</head>
+<body>
+	<form action="https://www.w3schools.com/html/html_form_elements.asp">
+		<fieldset>
+		<label>Name</label>
+		<input type="text" name="Name" placeholder="Name" maxlength="25" required>
+		<br><br>
+		<label>Email</label>
+		<input type="Email" name="Email" value="test@example.com" autofocus required><br><br>
+		<label>Password</label>
+		<input type="Password" name="Password" minlength="6" required><br><br>
+	</fieldset><br>
+	<label >Category</label>
+	<select name="Category" required>
+		<option value="student">student</option>
+		<option value="Employee">Employee</option>
+		<option value="Freelancer" selected >Freelancer</option>
+	</select><br><br>
+	<label for="date">Event date</label>
+	<input type="date" name="Event date" required><br>
+	<input type="radio" id="1 ticket" name="ticket" required>
+	<label for="1 ticket">1 ticket</label><br>
+	<input type="radio" id="2 ticket" name="ticket" checked required>
+	<label for="1 ticket" >2 ticket</label><br>
+	<input type="radio" id="3 ticket" name="ticket" required>
+	<label for="3 ticket">3 ticket</label><br>
+	<label>Online payment</label>
+	<input type="checkbox" required=""><br>
+	<h4>Note:
+	<textarea rows="4" cols="30" placeholder="Note..."></textarea></h4><br>
+	<input type="submit" name="submit">
+	<input type="reset" name="reset">
+</form>
+</body>
+</html>
